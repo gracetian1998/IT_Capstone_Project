@@ -11,7 +11,7 @@ class TestQuerytest():
     self.driver.quit()
   
   def test_querytest(self):
-    self.driver.get("file:///home/IT_Capstone_Project/main/DecarbonisingWastewaterTreatment/static/data_report.html#Data-Report")
+    self.driver.get("file:///D:/cits5206/DecarbonisingWastewaterTreatment/static/data_visualisation.html#Data-Report")
     self.driver.find_element(By.CSS_SELECTOR, "form").click()
     self.driver.find_element(By.ID, "query_id").click()
     print(1)
